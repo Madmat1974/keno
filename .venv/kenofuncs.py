@@ -26,16 +26,3 @@ def matching(game_list, player_list, match_list): # return a list with matching 
    
 
 
-boo = [] #game list
-player = [] #player list
-match = [] #match list
-player_quick_pick = True
-number_of_spots = 10
-random_drawings(boo) #get game drawings list
-sort_ascending(boo)  #sort game drawings
-random_drawings(player, number_of_spots)
-sort_ascending(player)
-matching(boo, player, match)
-print (boo)
-print (player)
-print (match)
